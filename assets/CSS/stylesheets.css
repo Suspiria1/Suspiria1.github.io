@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+body {
+    background-color: #eaeaea;
+    overflow-y: hidden;
+}
+.header {
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    font-size: 2rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display: inline-block;
+    font-size: 1.25em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    overflow: hidden;
+}
+.home-content {
+    max-width: 50%;
+    margin-bottom: 10%;
+}
+.home-content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.home-content h3 {
+    font-size: 3rem;
+}
+.home-content p {
+    font-size: 1.25em;
+    margin: 15px 0 30px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #eaeaea;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: transparent;
+    color: #000000;
+}
+.selfie {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.selfie .selfie-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+.selfie .selfie-div img {
+    height: 175%;
+}
