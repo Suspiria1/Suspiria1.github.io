@@ -394,4 +394,7 @@ body {
         background-color: #2c2b2b;
         color: #349eaf;
     }
+    .project:hover {
+        background-color: #2c2b2b;
+    }
 }
