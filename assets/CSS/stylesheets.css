@@ -374,3 +374,24 @@ body {
         font-size: 1.5rem;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1d1d;
+        color: #eaeaea;
+    }
+    .name, .nav a {
+        color: #eaeaea;
+    }
+    .selfie .selfie-div {
+        background-color: #1e1d1d;
+    }
+    .contact {
+        background-color: #1e1d1d;
+        border: 2px solid #eaeaea;
+    }
+    input, textarea, .inputBox input[type="submit"] {
+        background-color: #2c2b2b;
+        color: #349eaf;
+    }
+}
